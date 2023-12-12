@@ -1,34 +1,60 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, intital-scale=1.0">
-<link rel="stylesheet" href="Mainpage.css">
-<link rel="stylesheet" href="Aboutme.css">
-<title>Isaiah's Gaming Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add your custom CSS files -->
+    <link rel="stylesheet" href="Mainpage.css">
+    <link rel="stylesheet" href="Aboutme.css">
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Isaiah's Gaming Blog</title>
 </head>
 
 <body>
-<header>
-  <h1>Isaiah's Gaming Blog</h1>
-</header>
-<nav> Home &nbsp;
-  Xbox &nbsp;
-  Switch &nbsp;
-  Playstation 5 &nbsp;
-  About Me </nav>
+    <header class="container">
+        <h1 class="text-center">Isaiah's Gaming Blog</h1>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Xbox</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Switch</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Playstation 5</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<table>
-	<tr>
-	<th class="About-me">About me</th>
-	</tr>
-	<tr>
-	<td class="Row-style">Hello there and thank you for visiting my little website! A little about me is that I have been video games since I was little. I enjoy all types of games but my favorite is first person shooters. I have almost every platform except a PC which is why I only included consoles. That's pretty much it and thank you once again! </td></tr>
-	
-	</table>
+    <div class="container mt-4">
+        <table class="table">
+            <tr>
+                <th class="About-me">About me</th>
+            </tr>
+            <tr>
+                <td class="Row-style">Hello there, and thank you for visiting my little website! A little about me is
+                    that I have been playing video games since I was little. I enjoy all types of games, but my
+                    favorite is first-person shooters. I have almost every platform except a PC, which is why I only
+                    included consoles. That's pretty much it, and thank you once again!</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="container-fluid mt-4 text-center">
+        <p>Phone: 773-621-3387 Email: itorres6@my.nl.edu</p>
+    </footer>
+
+    <!-- Add Bootstrap JavaScript (optional) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
-	<footer>
-	Phone:773-621-3387    
-	Email:itorres6@my.nl.edu
-	</footer>
+
 </html>
+
