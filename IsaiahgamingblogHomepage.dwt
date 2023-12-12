@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intital-scale=1.0">
+<link rel="stylesheet" href="Mainpage.css">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Isaiah's Gaming Blog</title>
+</head>
+
+<body style="padding-top: 70px">
+<nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+      <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a> </div>
+      </li>
+      <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<header>
+  <h1>Isaiah's Gaming Blog</h1>
+</header>
+<nav> Home &nbsp;
+  Xbox &nbsp;
+  Switch &nbsp;
+  Playstation 5 &nbsp;
+  About Me 
+	
+</nav>
+	
+<main>
+	<h2 class="Home">Welcome to my gaming blog!</h2>
+	<div id="Youtube">
+		<table id="videolayout">
+		<tr>
+			<td class="YoutubeVideo">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/9oR-S1TGzK0?si=6l9Wr20r5TxslFmC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</td>
+			<td class="YoutubeVideo">
+			<h3>Video games are so much more</h3>
+			<p>Video games have been around for generations and continues to keep growing. They have this incredible power to transport us into different worlds, where we can be heroes, solve puzzles, and embark on epic adventures. The level of interactivity and engagement is just mindblowing. Video games is like stepping into our own virtual playground where anything is possible! They truly have a special kind of magic that captivates players like us.</p>
+		</td>
+	</tr>
+		<tr>
+			<td class="ShortVideo">
+				<video width="100%" controls>
+					<source src="VideoGameClip.mp4" type="video/mp4">
+			</video>
+			</td>
+			
+				<td class="ShortVideo">
+				<h4>Fun for all ages</h4>
+			    <p>Video Games are fun for all ages becuase they offer something for everyone! Whether you're a kid, teenager, or an adult, there are games tailored to suit different interests and skill levels. For younger players, games can be educational and help with cognitive development. They can teach problem-solving, critical thinking, and even improve hand-eye coordination. For older players, games can be a great way to relax, unwind, and have some fun. They provide an escape from the daily grind and allow us to explore new worlds and stories. Plus, multiplayer games can bring people of all ages together, fostering social connections and friendly competition. so, no matter your age, there's a game out there that can bring joy and entertainment to your life!</p>
+			</td>
+				</tr>
+		</table>
+	</div>
+	
+</main>
+<footer>
+	Phone:773-621-3387    
+	Email:itorres6@my.nl.edu
+	</footer>
+	
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
+
