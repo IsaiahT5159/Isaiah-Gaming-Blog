@@ -49,12 +49,6 @@ h2.Home {
     margin-bottom: 20px;
 }
 
-#XboxSection img {
-    width: 100%;
-    border: 1px solid #555;
-    margin-top: 10px; /* Adjust the top margin to lower the image */
-}
-
 #XboxSection h2 {
     color: #e74c3c;
 }
