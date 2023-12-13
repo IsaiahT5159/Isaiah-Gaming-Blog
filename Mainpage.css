@@ -1,8 +1,6 @@
-/* Mainpage.css */
-
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1c1c1c; /* Dark background color */
+    background-color: #1c1c1c; 
     color: #fff;
     margin: 0;
 }
@@ -19,12 +17,12 @@ nav {
 }
 
 nav a {
-    color: #fff; /* White text color */
-    transition: color 0.3s ease; /* Smooth color transition */
+    color: #fff; 
+    transition: color 0.3s ease; 
 }
 
 nav a:hover {
-    color: #007bff; /* Blue hover color */
+    color: #007bff; 
 }
 
 main {
@@ -32,11 +30,11 @@ main {
 }
 
 h2.Home {
-    color: #e74c3c; /* Red heading color */
+    color: #e74c3c; 
     margin-bottom: 20px;
 }
 
-/* Youtube Section Styles */
+
 #Youtube {
     display: flex;
     flex-wrap: wrap;
@@ -46,26 +44,26 @@ h2.Home {
 #Youtube article {
     flex: 1;
     margin-bottom: 20px;
-    border: 1px solid #555; /* Dark border color */
+    border: 1px solid #555; 
     padding: 10px;
     box-sizing: border-box;
-    background-color: #2c3e50; /* Dark background color */
+    background-color: #2c3e50; 
 }
 
 #Youtube iframe {
     width: 100%;
-    border: 1px solid #555; /* Dark border color */
+    border: 1px solid #555; 
 }
 
 #Youtube h3 {
-    color: #e74c3c; /* Red heading color */
+    color: #e74c3c; 
 }
 
 #Youtube p {
-    color: #ecf0f1; /* Light text color */
+    color: #ecf0f1; 
 }
 
-/* Short Videos Section Styles */
+
 #ShortVideos {
     display: flex;
     flex-wrap: wrap;
@@ -75,23 +73,23 @@ h2.Home {
 #ShortVideos article {
     flex: 1;
     margin-bottom: 20px;
-    border: 1px solid #555; /* Dark border color */
+    border: 1px solid #555; 
     padding: 10px;
     box-sizing: border-box;
-    background-color: #2c3e50; /* Dark background color */
+    background-color: #2c3e50; 
 }
 
 #ShortVideos video {
     width: 100%;
-    border: 1px solid #555; /* Dark border color */
+    border: 1px solid #555; 
 }
 
 #ShortVideos h4 {
-    color: #e74c3c; /* Red heading color */
+    color: #e74c3c; 
 }
 
 #ShortVideos p {
-    color: #ecf0f1; /* Light text color */
+    color: #ecf0f1; 
 }
 
 footer {
