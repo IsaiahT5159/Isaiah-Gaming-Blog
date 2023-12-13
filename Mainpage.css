@@ -1,14 +1,20 @@
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Arial', sans-serif;
 }
-
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
-
 nav {
     margin-bottom: 20px;
 }
@@ -20,28 +26,25 @@ nav a {
 nav a:hover {
     color: #007bff;
 }
-
 main {
     padding: 20px;
 }
-
 h2.Home {
     color: #000000;
 }
-
-#Youtube {
+#videolayout {
     width: 100%;
     border-spacing: 20px;
 }
 
-#Youtube article {
+.YoutubeVideo,
+.ShortVideo {
     vertical-align: top;
 }
 
-#ShortVideos video {
+.ShortVideo video {
     width: 100%;
 }
-
 footer {
     background-color: #333;
     color: #fff;
@@ -51,6 +54,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
 
 
