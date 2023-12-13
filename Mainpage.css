@@ -24,7 +24,6 @@ nav a:hover {
     color: #007bff;
 }
 
-/* Main Content Styles */
 main {
     padding: 20px;
 }
@@ -45,10 +44,14 @@ h2.Home {
 #Youtube article {
     flex: 1;
     margin-bottom: 20px;
+    border: 1px solid #ddd; 
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 #Youtube iframe {
     width: 100%;
+    border: 1px solid #ddd; 
 }
 
 #Youtube h3 {
@@ -59,7 +62,6 @@ h2.Home {
     color: #555;
 }
 
-
 #ShortVideos {
     display: flex;
     flex-wrap: wrap;
@@ -69,6 +71,14 @@ h2.Home {
 #ShortVideos article {
     flex: 1;
     margin-bottom: 20px;
+    border: 1px solid #ddd; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#ShortVideos video {
+    width: 100%;
+    border: 1px solid #ddd; 
 }
 
 #ShortVideos h4 {
