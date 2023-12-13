@@ -1,14 +1,27 @@
 
+/* Mainpage.css */
+
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #1c1c1c;
+    color: #fff;
     margin: 0;
-    padding: 0;
 }
 
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    margin-bottom: 20px;
+}
 
 nav a {
-    color: #343a40;
+    color: #fff;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -16,28 +29,41 @@ nav a:hover {
 }
 
 main {
-    max-width: 800px;
-    margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2.Home {
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+/* Xbox Section Styles */
+#XboxSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#XboxSection figure {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 #XboxSection img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    border: 1px solid #555;
 }
 
-#XboxSection h3 {
-    color: #007bff;
+#XboxSection h2 {
+    color: #e74c3c;
 }
 
 #XboxSection p {
-    line-height: 1.5;
+    color: #ecf0f1;
 }
 
-#XboxSection h4 {
-    color: #007bff;
+#XboxSection h3 {
+    color: #e74c3c;
 }
 
 #XboxSection ul {
@@ -48,6 +74,17 @@ main {
 #XboxSection li {
     margin-bottom: 10px;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 
 
