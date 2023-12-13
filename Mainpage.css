@@ -1,56 +1,55 @@
-* {
- margin-left: 0;
- margin-right: 0;
- margin-top: 0;
- margin:0;
- }
 
- h1 {
- font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
- font-size: 35px;
- flex-direction: column;
- background-color: lightcyan;
- padding: 20px;
- min-height: 20vh;
- }
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
 
 nav {
-	background-color:lightcoral;
-	font-weight: bolder;
-	font-size: 22px
+    margin-bottom: 20px;
 }
 
-table, th, td {
- border: 1px;
- border-spacing: 0;
- }
-
-table {
-	width: 100%;
+nav a {
+    color: #333;
 }
 
-td,th {
-	padding: 20px;
+nav a:hover {
+    color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+h2.Home {
+    color: #007bff;
 }
 
 #videolayout {
-	border: 0px;
+    width: 100%;
+    border-spacing: 20px;
 }
 
-.Home { font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-font-size: 30px;
-text-align: center}
-
-.YoutubeVideo {
-	background-color: chocolate;
-	border: 0px;
-	vertical-align: top;
+.YoutubeVideo, .ShortVideo {
+    vertical-align: top;
 }
 
-.ShortVideo{
-	background-color: chocolate
+.ShortVideo video {
+    width: 100%;
 }
 
-footer{
-	background-color:darkgrey
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
