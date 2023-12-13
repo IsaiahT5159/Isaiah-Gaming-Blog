@@ -1,6 +1,8 @@
+
 body {
     font-family: 'Arial', sans-serif;
 }
+
 
 header {
     background-color: #333;
@@ -8,6 +10,7 @@ header {
     text-align: center;
     padding: 20px 0;
 }
+
 
 nav {
     margin-bottom: 20px;
@@ -21,25 +24,59 @@ nav a:hover {
     color: #007bff;
 }
 
+/* Main Content Styles */
 main {
     padding: 20px;
 }
 
+
 h2.Home {
     color: #000000;
+    margin-bottom: 20px;
 }
 
-#videolayout {
+
+#Youtube {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Youtube article {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+#Youtube iframe {
     width: 100%;
-    border-spacing: 20px;
 }
 
-.YoutubeVideo, .ShortVideo {
-    vertical-align: top;
+#Youtube h3 {
+    color: #333;
 }
 
-.ShortVideo video {
-    width: 100%;
+#Youtube p {
+    color: #555;
+}
+
+
+#ShortVideos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#ShortVideos article {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+#ShortVideos h4 {
+    color: #333;
+}
+
+#ShortVideos p {
+    color: #555;
 }
 
 footer {
@@ -51,6 +88,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
 
 
 
