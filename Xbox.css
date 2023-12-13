@@ -52,6 +52,7 @@ h2.Home {
 #XboxSection img {
     width: 100%;
     border: 1px solid #555;
+    margin-top: 10px; /* Adjust the top margin to lower the image */
 }
 
 #XboxSection h2 {
@@ -84,6 +85,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
 
 
