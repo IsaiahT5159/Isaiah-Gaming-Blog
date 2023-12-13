@@ -1,8 +1,11 @@
+/* Mainpage.css */
 
 body {
     font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c; /* Dark background color */
+    color: #fff;
+    margin: 0;
 }
-
 
 header {
     background-color: #333;
@@ -11,30 +14,29 @@ header {
     padding: 20px 0;
 }
 
-
 nav {
     margin-bottom: 20px;
 }
 
 nav a {
-    color: #333;
+    color: #fff; /* White text color */
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
 nav a:hover {
-    color: #007bff;
+    color: #007bff; /* Blue hover color */
 }
-
 
 main {
     padding: 20px;
 }
 
-
 h2.Home {
-    color: #000000;
+    color: #e74c3c; /* Red heading color */
     margin-bottom: 20px;
 }
 
+/* Youtube Section Styles */
 #Youtube {
     display: flex;
     flex-wrap: wrap;
@@ -44,25 +46,26 @@ h2.Home {
 #Youtube article {
     flex: 1;
     margin-bottom: 20px;
-    border: 1px solid #ddd; /* Add border to articles */
+    border: 1px solid #555; /* Dark border color */
     padding: 10px;
     box-sizing: border-box;
-    background-color: #f9f9f9; /* Add background color */
+    background-color: #2c3e50; /* Dark background color */
 }
 
 #Youtube iframe {
     width: 100%;
-    border: 1px solid #ddd; /* Add border to iframe */
+    border: 1px solid #555; /* Dark border color */
 }
 
 #Youtube h3 {
-    color: #333;
+    color: #e74c3c; /* Red heading color */
 }
 
 #Youtube p {
-    color: #555;
+    color: #ecf0f1; /* Light text color */
 }
 
+/* Short Videos Section Styles */
 #ShortVideos {
     display: flex;
     flex-wrap: wrap;
@@ -72,25 +75,24 @@ h2.Home {
 #ShortVideos article {
     flex: 1;
     margin-bottom: 20px;
-    border: 1px solid #ddd; /* Add border to articles */
+    border: 1px solid #555; /* Dark border color */
     padding: 10px;
     box-sizing: border-box;
-    background-color: #f9f9f9; /* Add background color */
+    background-color: #2c3e50; /* Dark background color */
 }
 
 #ShortVideos video {
     width: 100%;
-    border: 1px solid #ddd; /* Add border to video */
+    border: 1px solid #555; /* Dark border color */
 }
 
 #ShortVideos h4 {
-    color: #333;
+    color: #e74c3c; /* Red heading color */
 }
 
 #ShortVideos p {
-    color: #555;
+    color: #ecf0f1; /* Light text color */
 }
-
 
 footer {
     background-color: #333;
